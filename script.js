@@ -22,6 +22,7 @@ prev.addEventListener('click',()=>{
   artistName.textContent=playlist[index].artistName;
   icon.classList.remove('fa-pause');
   icon.classList.add('fa-play');
+  toggle=0;
 });
 
 next.addEventListener('click',()=>{
@@ -32,6 +33,7 @@ next.addEventListener('click',()=>{
   artistName.textContent=playlist[index].artistName;
   icon.classList.remove('fa-pause');
   icon.classList.add('fa-play');
+  toggle=0;
 });
 
 playPause.addEventListener('click',()=>{
