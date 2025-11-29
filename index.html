@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link href="style.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <div class="player-screen">
+      <img src="elements/heart.png" aria-label="pixel heart" class="purple-heart">
+      <img src="elements/heart.png" aria-label="pixel heart" class="purple-heart">
+      <img src="elements/heart.png" aria-label="pixel heart" class="purple-heart">
+      <img src="elements/kuromi.png" aria-label="kuromi sticker" class="kuromi-img">
+      <div>
+        <img src="elements/butterfly.png" class="butterfly">
+        <img src="elements/butterfly.png" class="butterfly">
+      </div>
+      <img src="images/willow.jpg" aria-label="Album image" class="album-cover">
+      <h2 class="song-name">Willow</h2>
+      <p class="artist-name">Taylor Swift</p>
+      <input type="range" value="0" class="progress">
+      <audio class="track" controls>
+        <source src="songs/Taylor Swift-Willow.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="controls">
+        <button class="prev-song"><i class="fa-solid fa-backward"></i></button>
+        <button class="play-pause"><i class="fa-solid fa-play"></i></button>
+        <button class="next-song"><i class="fa-solid fa-forward"></i></button>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e9c4e5bbfd.js" crossorigin="anonymous"></script>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
